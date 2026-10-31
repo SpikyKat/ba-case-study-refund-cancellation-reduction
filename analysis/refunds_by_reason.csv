@@ -1,0 +1,7 @@
+refund_reason,cases,requested,paid,share_of_paid_pct
+Late delivery,203,2374.0,2215.0,39.0
+Never arrived,100,2997.0,1131.0,20.0
+Missing item,178,1418.0,880.0,15.0
+Quality,77,825.0,758.0,13.0
+Wrong item,54,1143.0,668.0,12.0
+Other,11,66.0,66.0,1.0

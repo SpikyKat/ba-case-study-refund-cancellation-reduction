@@ -1,0 +1,4 @@
+scenario,share_of_late_refund_cases_avoided_pct,cost_of_credits,refund_and_handling_cost_avoided,net
+conservative,25,1668,226,-1442
+base,50,1668,451,-1217
+optimistic,75,1668,677,-991

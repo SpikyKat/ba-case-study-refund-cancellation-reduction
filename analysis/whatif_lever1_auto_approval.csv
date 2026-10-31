@@ -1,0 +1,6 @@
+limit,max_prior_refunds,cases_moved_to_auto,pct_of_manual,refunds_that_manual_review_denied,value_leaked_if_all_paid,agent_hours_saved,agent_cost_saved,chase_contacts_avoided,net_benefit_if_leak_paid
+10,2,0,0,0,0,0.0,0,0,0
+15,2,130,35,23,283,40.1,803,71,520
+15,1,122,33,19,232,38.3,766,70,534
+20,2,183,49,32,437,54.4,1087,90,650
+20,1,172,46,27,369,51.6,1032,88,663

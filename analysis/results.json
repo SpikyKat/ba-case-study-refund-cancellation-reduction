@@ -1,0 +1,205 @@
+{
+  "orders": 10000,
+  "gmv": 251232,
+  "delivered": 9216,
+  "cancelled": 784,
+  "cancel_rate_pct": 7.8,
+  "refund_cases": 623,
+  "refund_rate_pct_of_delivered": 6.8,
+  "refund_paid": 5718,
+  "refund_paid_pct_of_gmv": 2.28,
+  "decisions": {
+    "Auto-approved": 248,
+    "Manual-approved": 229,
+    "Manual-denied": 146
+  },
+  "manual_share_pct": 60,
+  "decision_hours_manual_median": 14.5,
+  "decision_hours_manual_p90": 40.4,
+  "manual_over_24h_pct": 23,
+  "chase_rate_manual_over_24h_pct": 51,
+  "chase_rate_manual_within_24h_pct": 17,
+  "agent_hours_total": 199,
+  "agent_cost_total": 3982,
+  "manual_denial_rate_pct": 39,
+  "data_gap_missing_cancel_reason_pct": 18,
+  "by_reason": [
+    {
+      "refund_reason": "Late delivery",
+      "cases": 203,
+      "requested": 2374.0,
+      "paid": 2215.0,
+      "share_of_paid_pct": 39.0
+    },
+    {
+      "refund_reason": "Never arrived",
+      "cases": 100,
+      "requested": 2997.0,
+      "paid": 1131.0,
+      "share_of_paid_pct": 20.0
+    },
+    {
+      "refund_reason": "Missing item",
+      "cases": 178,
+      "requested": 1418.0,
+      "paid": 880.0,
+      "share_of_paid_pct": 15.0
+    },
+    {
+      "refund_reason": "Quality",
+      "cases": 77,
+      "requested": 825.0,
+      "paid": 758.0,
+      "share_of_paid_pct": 13.0
+    },
+    {
+      "refund_reason": "Wrong item",
+      "cases": 54,
+      "requested": 1143.0,
+      "paid": 668.0,
+      "share_of_paid_pct": 12.0
+    },
+    {
+      "refund_reason": "Other",
+      "cases": 11,
+      "requested": 66.0,
+      "paid": 66.0,
+      "share_of_paid_pct": 1.0
+    }
+  ],
+  "refund_rate_by_lateness": {
+    "on time": 3.9,
+    "1-10 min late": 4.1,
+    "11-20": 18.3,
+    "21-40": 16.3,
+    ">40": 18.8
+  },
+  "late_over_10_pct_of_delivered": 20.2,
+  "customers_total": 900,
+  "customers_with_refund": 360,
+  "top5pct_customers": 45,
+  "top5pct_share_of_requests_pct": 41,
+  "top5pct_share_of_requested_value_pct": 56,
+  "customers_with_3plus_refunds": 42,
+  "cancel_by": [
+    {
+      "cancelled_by": "Customer",
+      "cancellations": 334,
+      "wasted_food_cost": 3635.0
+    },
+    {
+      "cancelled_by": "Restaurant",
+      "cancellations": 239,
+      "wasted_food_cost": 2460.0
+    },
+    {
+      "cancelled_by": "Courier",
+      "cancellations": 127,
+      "wasted_food_cost": 2012.0
+    },
+    {
+      "cancelled_by": "System",
+      "cancellations": 84,
+      "wasted_food_cost": 0.0
+    }
+  ],
+  "wasted_food_cost_total": 8107,
+  "cancel_after_food_prepared_pct": 68,
+  "restaurant_stockout_pct_of_restaurant_cancels": 25,
+  "lever1": [
+    {
+      "limit": 10,
+      "max_prior_refunds": 2,
+      "cases_moved_to_auto": 0,
+      "pct_of_manual": 0,
+      "refunds_that_manual_review_denied": 0,
+      "value_leaked_if_all_paid": 0,
+      "agent_hours_saved": 0.0,
+      "agent_cost_saved": 0,
+      "chase_contacts_avoided": 0,
+      "net_benefit_if_leak_paid": 0
+    },
+    {
+      "limit": 15,
+      "max_prior_refunds": 2,
+      "cases_moved_to_auto": 130,
+      "pct_of_manual": 35,
+      "refunds_that_manual_review_denied": 23,
+      "value_leaked_if_all_paid": 283,
+      "agent_hours_saved": 40.1,
+      "agent_cost_saved": 803,
+      "chase_contacts_avoided": 71,
+      "net_benefit_if_leak_paid": 520
+    },
+    {
+      "limit": 15,
+      "max_prior_refunds": 1,
+      "cases_moved_to_auto": 122,
+      "pct_of_manual": 33,
+      "refunds_that_manual_review_denied": 19,
+      "value_leaked_if_all_paid": 232,
+      "agent_hours_saved": 38.3,
+      "agent_cost_saved": 766,
+      "chase_contacts_avoided": 70,
+      "net_benefit_if_leak_paid": 534
+    },
+    {
+      "limit": 20,
+      "max_prior_refunds": 2,
+      "cases_moved_to_auto": 183,
+      "pct_of_manual": 49,
+      "refunds_that_manual_review_denied": 32,
+      "value_leaked_if_all_paid": 437,
+      "agent_hours_saved": 54.4,
+      "agent_cost_saved": 1087,
+      "chase_contacts_avoided": 90,
+      "net_benefit_if_leak_paid": 650
+    },
+    {
+      "limit": 20,
+      "max_prior_refunds": 1,
+      "cases_moved_to_auto": 172,
+      "pct_of_manual": 46,
+      "refunds_that_manual_review_denied": 27,
+      "value_leaked_if_all_paid": 369,
+      "agent_hours_saved": 51.6,
+      "agent_cost_saved": 1032,
+      "chase_contacts_avoided": 88,
+      "net_benefit_if_leak_paid": 663
+    }
+  ],
+  "lever2": {
+    "manual_cases_over_24h": 87,
+    "chase_contacts_now": 99,
+    "chase_contacts_if_within_24h": 34,
+    "agent_cost_saved": 130
+  },
+  "lever3": [
+    {
+      "scenario": "conservative",
+      "share_of_late_refund_cases_avoided_pct": 25,
+      "cost_of_credits": 1668,
+      "refund_and_handling_cost_avoided": 226,
+      "net": -1442
+    },
+    {
+      "scenario": "base",
+      "share_of_late_refund_cases_avoided_pct": 50,
+      "cost_of_credits": 1668,
+      "refund_and_handling_cost_avoided": 451,
+      "net": -1217
+    },
+    {
+      "scenario": "optimistic",
+      "share_of_late_refund_cases_avoided_pct": 75,
+      "cost_of_credits": 1668,
+      "refund_and_handling_cost_avoided": 677,
+      "net": -991
+    }
+  ],
+  "lever3_inputs": {
+    "very_late_orders": 556,
+    "late_refund_cases": 50,
+    "current_cost": 903
+  }
+}
